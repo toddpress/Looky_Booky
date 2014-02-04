@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>LibGen Book Searcher</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+	  #resultsTable {
+		width: 100%;
+	  }
+    </style>
+	<script src="js/jquery.min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+	<div>Get books!</div>
+	<div>
+		<input type="text" id="searchInput" placeholder="Search LibGen..." />
+		<button id="searchButton" type="button">Search</button>
+	</div>
+	<hr>
+	<table id="resultsTable">
+		<tr>
+			<td style="width: 75%;"><b>Book</b></td>
+			<td style="width: 25%;"><b>Download</b></td>
+		</tr>
+	</table>
+  </body>
+</html>
+
