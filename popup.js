@@ -102,7 +102,7 @@ var bookSearcher = {
 		for (k=1; k<entry.mirrors.length; k++){
 			mir = entry.mirrors[k];
 			mir = $(mir).attr("href");
-			mir = mir.replace("..", "http://gen.lib.rus.ec/");
+			mir = mir.replace("../", "http://gen.lib.rus.ec/");
 			newMirrors.push(mir);
 		}	
 		entry.mirrors = newMirrors;
